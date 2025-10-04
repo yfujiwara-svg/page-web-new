@@ -48,23 +48,40 @@ export default function HomePage() {
             />
           </div>
           <div className="space-y-4">
-            <h2 className="font-serif text-lg md:text-xl font-light text-balance">chef</h2>
+          　<h2 className="font-serif text-lg md:text-xm font-light text-balance">chef</h2>
+            <h2 className="font-serif text-lg md:text-xm font-light mt-1 text-balance">増永 琉聖  Ryusei Masunaga</h2>
             <div className="space-y-3 text-gray-700">
-              <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                東京の名門レストランから欧州のミシュラン星付き店舗まで、15年以上にわたる料理の探求を重ねてきました。
-                フランス料理の古典技法と日本料理の伝統に深く根ざした経験から、独自の融合料理を生み出しています。
+              <p className="text-[11px] md:text-xs font-light leading-relaxed mt-12 text-pretty">
+              1998年　佐賀県生まれ。
+              </p>
+              <p className="text-[11px] md:text-xs font-light leading-relaxed mt-1 text-pretty">
+              高校の調理科を卒業後、2016年「オーグードゥジュール メルヴェイユ博多」に勤務。その後、イタリアンやスペイン料理を学び、2018年に佐賀の「arita huis」へ。2020年、22歳で同店ヘッドシェフに就任。
+              </p>
+              <p className="text-[11px] md:text-xs font-light leading-relaxed mt-1 text-pretty">
+              
               </p>
               <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                一晩にわずか6名様のみをお迎えする親密な空間で、
-                一皿一皿に込められた想いと技術をお客様に直接お伝えできることを何よりの喜びとしています。
+              その後、福岡県のイノベーティブレストラン「Nishimura Takahito La Cuisine Creativite」のヘッドシェフに抜擢。
               </p>
               <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                食材への敬意と革新への情熱が織りなす「page」の体験を、ぜひお楽しみください。
-              </p>
+              2023年、料理人コンペティション「RED U-35」にてSILVER EGGを受賞。
+             </p>
+             <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
+             2024年7月に一度レストランを離れ、パンや菓子などを学ぶ。2025年7月、東京にてレストラン「page」をオープン。
+             </p>
             </div>
           </div>
         </div>
       </section>
+
+      <div className="relative w-full aspect-[4/3] md:h-screen">
+        <Image
+          src="/2025.08.04.page0355.jpg"
+          alt="Elegant restaurant interior"
+          fill
+          className="object-cover"
+        />
+      </div>
 
       <section id="menu" className="bg-stone-50 py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
