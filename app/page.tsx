@@ -115,15 +115,14 @@ export default function HomePage() {
           <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm">
             <div className="space-y-4">
               <div>
-                <h3 className="font-serif text-sm font-medium mb-1">季節のテイスティングメニュー</h3>
-                <p className="text-lg font-light text-gray-900">¥18,000</p>
+                <h3 className="font-serif text-xs font-medium mb-1">ディナーコース(税込)</h3>
+                <p className="text- font-light text-gray-900">¥22,000</p>
               </div>
               <div className="border-t border-gray-200 pt-4">
                 <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 text-pretty">
-                  季節ごとに変化するメニューは、地元の生産者や専門業者から厳選した最高の食材を使用しています。
-                  毎晩、日本の精密さと国際的な影響を祝う、慎重にキュレーションされた7コースの旅をお届けします。
+                ［start 18：00-］別途サービス料金を頂戴します。
                 </p>
-                <p className="text-xs font-light text-gray-600 mt-3">ワインペアリング追加 ¥8,000</p>
+                <p className="text-xs font-light text-gray-600 mt-3">ペアリング ¥16,500（税込）</p>
               </div>
             </div>
           </div>
@@ -135,13 +134,15 @@ export default function HomePage() {
           <h2 className="font-serif text-lg md:text-xl font-light mb-6 text-balance">reservation</h2>
           <div className="space-y-4">
             <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
-              毎晩わずか6席のみの特別な空間で、シェフとの直接的な交流と、
-              お食事の細部にまで行き届いた心配りをお楽しみいただけます。
+            ご予約はTableCheck,お電話より承っております。
             </p>
             <Button size="sm" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
-              TableCheckで予約
+              TableCheck
             </Button>
-            <p className="text-xs font-light text-gray-600">ご予約は必須となっており、30日前からお受けしております</p>
+            <Button size="sm" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
+              tel
+            </Button>
+
           </div>
         </div>
       </section>
