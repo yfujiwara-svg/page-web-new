@@ -10,7 +10,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <HeroCarousel />
 
-      <section id="concept" className="relative w-full aspect-[4/3] md:h-screen mt-16">
+      <section id="concept" className="relative w-full aspect-[4/3] md:h-screen mt-16 [mask-image:linear-gradient(to_bottom,black_80%,transparent)]">
   {/* 背景画像 */}
   <Image
     src="/2025.08.04.page0883.jpg" // 画像パスはプロジェクトに合わせてください
@@ -24,27 +24,53 @@ export default function HomePage() {
 
   {/* 中央に配置するコンテンツ */}
   <div className="absolute inset-0 flex items-center justify-center">
-    <div className="max-w-2xl mx-auto px-6 text-center text-white">
+    <div className="max-w-2xl mx-auto px-6 text-center text-white opacity-80">
       {/* 半透明のボックスを削除したテキスト部分 */}
-      <p className="text-[11px] md:text-sm font-light leading-relaxed text-pretty">
+      <p className="text-[13px] md:text-sm font-light leading-relaxed text-pretty">
       A new page of culinary imagination awaits you here.
       </p>
-      <p className="text-[11px] md:text-sm font-light leading-relaxed mt-3 text-pretty">
-      料理への創造力が紡ぐ、新たな出会いの1ページが、ここに
-      </p>
+
 
     </div>
   </div>
 </section>
 
+<div className="relative w-full aspect-[3/4] md:h-screen -mt-20 md:-mt-48 [mask-image:linear-gradient(to_bottom,transparent,black_20%)]">
+        <Image
+          src="/2025.08.04.page1127.jpg"
+          alt="Elegant restaurant interior"
+          fill
+          className="object-cover"
+        />
+        {/* 画像を少し暗くするためのオーバーレイ */}
+        <div className="absolute inset-0 bg-black/40" />
+        {/* 中央に配置するコンテンツ */}
+        <div className="absolute inset-0 flex items-center justify-center">
+            <div className="max-w-2xl mx-auto px-6 text-center text-white opacity-80">
+              <p className="text-[10px] md:text-xs font-light leading-relaxed mt-16 text-pretty">
+                'page'はキャンバスであり、本の中の１ページです。
+                </p>
+                <p className="text-[10px] md:text-xs font-light leading-relaxed mt-4 text-pretty">
+                歴史ある街浅草で、料理の新しい可能性を追求します。
+                </p>
+                <p className="text-[10px] md:text-xs font-light leading-relaxed mt-1 text-pretty">
+                色彩豊かな料理や、食材に現れる季節の移ろい
+                </p>
+                <p className="text-[10px] md:text-xs font-light leading-relaxed mt-1 text-pretty">
+                店内のアート作品、お客様のご来店、一つ一つを大切に編みながら。
+                </p>
+            </div>
+        </div>
+      </div>
+
       <section id="chef" className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="relative aspect-[3/4] w-full max-w-md mx-auto">
             <Image
-              src="/chef-portrait-professional.jpg"
+              src="/2025.08.04.page0904.jpg"
               alt="Chef portrait in professional attire"
               fill
-              className="object-cover rounded-lg"
+              className="object-cover"
             />
           </div>
           <div className="space-y-4">
