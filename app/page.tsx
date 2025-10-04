@@ -10,10 +10,10 @@ export default function HomePage() {
       {/* Hero Section */}
       <HeroCarousel />
 
-      <section id="concept" className="relative h-screen w-full">
+      <section id="concept" className="relative w-full aspect-[4/3] md:h-screen mt-16">
   {/* 背景画像 */}
   <Image
-    src="/restaurant-interior-atmosphere.jpg" // 画像パスはプロジェクトに合わせてください
+    src="/2025.08.04.page0883.jpg" // 画像パスはプロジェクトに合わせてください
     alt="Restaurant interior with atmospheric lighting"
     fill
     className="object-cover"
@@ -25,16 +25,12 @@ export default function HomePage() {
   {/* 中央に配置するコンテンツ */}
   <div className="absolute inset-0 flex items-center justify-center">
     <div className="max-w-2xl mx-auto px-6 text-center text-white">
-      <h2 className="font-serif text-lg md:text-xl font-light mb-4 text-balance">
-        concept
-      </h2>
-      
       {/* 半透明のボックスを削除したテキスト部分 */}
-      <p className="text-xs md:text-sm font-light leading-relaxed text-pretty">
-        1日6席のプライベート空間
+      <p className="text-[11px] md:text-sm font-light leading-relaxed text-pretty">
+      A new page of culinary imagination awaits you here.
       </p>
-      <p className="text-xs md:text-sm font-light leading-relaxed mt-3 text-pretty">
-        季節の移ろい、訪れる人々、一皿毎の料理が「page」に刻まれ、累積する
+      <p className="text-[11px] md:text-sm font-light leading-relaxed mt-3 text-pretty">
+      料理への創造力が紡ぐ、新たな出会いの1ページが、ここに
       </p>
 
     </div>
@@ -52,17 +48,17 @@ export default function HomePage() {
             />
           </div>
           <div className="space-y-4">
-            <h2 className="font-serif text-lg md:text-xl font-light text-balance">シェフ</h2>
+            <h2 className="font-serif text-lg md:text-xl font-light text-balance">chef</h2>
             <div className="space-y-3 text-gray-700">
-              <p className="text-xs font-light leading-relaxed text-pretty">
+              <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                 東京の名門レストランから欧州のミシュラン星付き店舗まで、15年以上にわたる料理の探求を重ねてきました。
                 フランス料理の古典技法と日本料理の伝統に深く根ざした経験から、独自の融合料理を生み出しています。
               </p>
-              <p className="text-xs font-light leading-relaxed text-pretty">
+              <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                 一晩にわずか6名様のみをお迎えする親密な空間で、
                 一皿一皿に込められた想いと技術をお客様に直接お伝えできることを何よりの喜びとしています。
               </p>
-              <p className="text-xs font-light leading-relaxed text-pretty">
+              <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                 食材への敬意と革新への情熱が織りなす「page」の体験を、ぜひお楽しみください。
               </p>
             </div>
@@ -72,7 +68,7 @@ export default function HomePage() {
 
       <section id="menu" className="bg-stone-50 py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-lg md:text-xl font-light mb-6 text-balance">メニュー</h2>
+          <h2 className="font-serif text-lg md:text-xl font-light mb-6 text-balance">menu</h2>
           <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm">
             <div className="space-y-4">
               <div>
@@ -80,7 +76,7 @@ export default function HomePage() {
                 <p className="text-lg font-light text-gray-900">¥18,000</p>
               </div>
               <div className="border-t border-gray-200 pt-4">
-                <p className="text-xs font-light leading-relaxed text-gray-700 text-pretty">
+                <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 text-pretty">
                   季節ごとに変化するメニューは、地元の生産者や専門業者から厳選した最高の食材を使用しています。
                   毎晩、日本の精密さと国際的な影響を祝う、慎重にキュレーションされた7コースの旅をお届けします。
                 </p>
@@ -93,9 +89,9 @@ export default function HomePage() {
 
       <section id="reservation" className="py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-lg md:text-xl font-light mb-6 text-balance">ご予約</h2>
+          <h2 className="font-serif text-lg md:text-xl font-light mb-6 text-balance">reservation</h2>
           <div className="space-y-4">
-            <p className="text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
+            <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
               毎晩わずか6席のみの特別な空間で、シェフとの直接的な交流と、
               お食事の細部にまで行き届いた心配りをお楽しみいただけます。
             </p>
@@ -109,7 +105,7 @@ export default function HomePage() {
 
       <section id="gallery" className="bg-stone-50 py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-lg md:text-xl font-light mb-8 text-center text-balance">ギャラリー</h2>
+          <h2 className="font-serif text-lg md:text-xl font-light mb-8 text-center text-balance">gallery</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
               "/gallery-dish-1.jpg",
@@ -146,17 +142,17 @@ export default function HomePage() {
               />
             </div>
             <div className="space-y-4">
-              <h2 className="font-serif text-lg md:text-xl font-light text-balance">メッセージ</h2>
+              <h2 className="font-serif text-lg md:text-xl font-light text-balance">message</h2>
               <div className="space-y-3 text-gray-700">
-                <p className="text-xs font-light leading-relaxed text-pretty">
+                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                   「page」へようこそ。妻と私は、この空間を私たちの家の延長として創り上げ、
                   親密な環境で卓越した料理への情熱を分かち合いたいと願っています。
                 </p>
-                <p className="text-xs font-light leading-relaxed text-pretty">
+                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                   毎晩、わずか6名のお客様をお迎えし、世界最高峰のキッチンでの経験と、
                   料理の芸術性への深い感謝を反映したお食事をご体験いただいています。
                 </p>
-                <p className="text-xs font-light leading-relaxed text-pretty">
+                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
                   この特別な体験を皆様と分かち合えることを心より楽しみにしております。
                 </p>
               </div>
@@ -167,7 +163,7 @@ export default function HomePage() {
 
       <section id="access" className="bg-stone-50 py-16">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-serif text-lg md:text-xl font-light mb-8 text-center text-balance">アクセス</h2>
+          <h2 className="font-serif text-lg md:text-xl font-light mb-8 text-center text-balance">access</h2>
           <div className="grid md:grid-cols-2 gap-10">
             <div className="space-y-4">
               <div>
