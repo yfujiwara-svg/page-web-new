@@ -5,27 +5,26 @@ import Image from "next/image"
 
 const heroImages = [
   {
-    src: "/elegant-restaurant-interior-with-warm-lighting-and.jpg",
+    src: "/2025.08.04.page0354.jpg",
     alt: "Restaurant interior with elegant ambiance",
   },
   {
-    src: "/beautifully-plated-fusion-dish-on-white-ceramic-pl.jpg",
+    src: "/2025.08.04.page0047.jpg",
     alt: "Artfully plated fusion cuisine",
   },
   {
-    src: "/chef-preparing-food-in-modern-kitchen-with-precisi.jpg",
+    src: "/2025.08.04.page0007.jpg",
     alt: "Chef at work in the kitchen",
   },
   {
-    src: "/intimate-dining-room-with-natural-light-and-wooden.jpg",
+    src: "/2025.08.04.page1099.jpg",
     alt: "Intimate dining space",
   },
   {
-    src: "/close-up-of-hands-carefully-plating-gourmet-food.jpg",
+    src: "/2025.08.04.page0524.jpg",
     alt: "Culinary artistry in action",
   },
 ]
-
 export default function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
