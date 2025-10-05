@@ -57,7 +57,10 @@ export default function HomePage() {
                 色彩豊かな料理や、食材に現れる季節の移ろい
                 </p>
                 <p className="text-[10px] md:text-xs font-light leading-relaxed mt-1 text-pretty">
-                店内のアート作品、お客様のご来店、一つ一つを大切に編みながら。
+                1日に6席の出会い、店内に並ぶアートたち。
+                </p>
+                <p className="text-[10px] md:text-xs font-light leading-relaxed mt-7 text-pretty">
+                その一つ一つを大切に編みながら。
                 </p>
             </div>
         </div>
@@ -136,12 +139,13 @@ export default function HomePage() {
             <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
             ご予約はTableCheck,お電話より承っております。
             </p>
-            <Button size="sm" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
+            <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
+            tel:03-6820-6541
+            </p>
+            <Button size="sx" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
               TableCheck
             </Button>
-            <Button size="sm" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
-              tel
-            </Button>
+
 
           </div>
         </div>
@@ -152,14 +156,14 @@ export default function HomePage() {
           <h2 className="font-serif text-lg md:text-xl font-light mb-8 text-center text-balance">gallery</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
-              "/gallery-dish-1.jpg",
-              "/gallery-interior-1.jpg",
-              "/gallery-dish-2.jpg",
-              "/gallery-kitchen.jpg",
-              "/gallery-dish-3.jpg",
-              "/gallery-interior-2.jpg",
-              "/gallery-dish-4.jpg",
-              "/gallery-detail.jpg",
+              "/2025.08.04.page0058.jpg",
+              "/2025.08.04.page0367.jpg",
+              "/2025.08.04.page0558.jpg",
+              "/2025.08.04.page0577 1.jpg",
+              "/2025.08.04.page0607.jpg",
+              "/2025.08.04.page0915.jpg",
+              "/2025.08.04.page0313.jpg",
+              "/2025.08.04.page0173.jpg",
             ].map((src, index) => (
               <div key={index} className="relative aspect-square overflow-hidden rounded-lg group">
                 <Image
@@ -174,36 +178,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="message" className="py-16">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div className="relative aspect-[4/3] w-full">
-              <Image
-                src="/chef-couple-warm-photo.jpg"
-                alt="Chef and his wife in warm, welcoming pose"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-            <div className="space-y-4">
-              <h2 className="font-serif text-lg md:text-xl font-light text-balance">message</h2>
-              <div className="space-y-3 text-gray-700">
-                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                  「page」へようこそ。妻と私は、この空間を私たちの家の延長として創り上げ、
-                  親密な環境で卓越した料理への情熱を分かち合いたいと願っています。
-                </p>
-                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                  毎晩、わずか6名のお客様をお迎えし、世界最高峰のキッチンでの経験と、
-                  料理の芸術性への深い感謝を反映したお食事をご体験いただいています。
-                </p>
-                <p className="text-[11px] md:text-xs font-light leading-relaxed text-pretty">
-                  この特別な体験を皆様と分かち合えることを心より楽しみにしております。
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       <section id="access" className="bg-stone-50 py-16">
         <div className="max-w-4xl mx-auto px-6">
@@ -213,30 +188,30 @@ export default function HomePage() {
               <div>
                 <h3 className="font-serif text-sm font-medium mb-1">所在地</h3>
                 <p className="text-xs font-light text-gray-700">
-                  〒150-0002
+                  〒111-0032
                   <br />
-                  東京都渋谷区渋谷1-2-3
+                  東京都台東区浅草５丁目６７−２　1階
                 </p>
               </div>
               <div>
                 <h3 className="font-serif text-sm font-medium mb-1">お問い合わせ</h3>
                 <p className="text-xs font-light text-gray-700">
-                  電話: 03-1234-5678
+                  電話: 03-6820-6541
                   <br />
-                  メール: info@page-restaurant.com
+                  メール: info@pagetokyo.com
                 </p>
               </div>
               <div>
                 <h3 className="font-serif text-sm font-medium mb-1">営業時間</h3>
                 <p className="text-xs font-light text-gray-700">
-                  火曜日 - 土曜日: 18:00 - 22:00
+                  18:00 - 22:00
                   <br />
-                  日曜日・月曜日: 定休日
+                  不定休
                 </p>
               </div>
               <div>
                 <h3 className="font-serif text-sm font-medium mb-1">席数</h3>
-                <p className="text-xs font-light text-gray-700">カウンター6席</p>
+                <p className="text-xs font-light text-gray-700">1日6席限定</p>
               </div>
             </div>
             <div className="relative aspect-[4/3] w-full">
