@@ -35,7 +35,7 @@ export default function Header() {
 
             <div className="flex items-center">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/page_tokyo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-300 transition-colors"
