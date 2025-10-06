@@ -213,18 +213,7 @@ export default function HomePage() {
                 <h3 className="font-serif text-sm font-medium mb-1">席数</h3>
                 <p className="text-xs font-light text-gray-700">1日6席限定</p>
               </div>
-            </div>
-            <div className="relative aspect-[4/3] w-full">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747707654!2d139.70!3d35.66!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDM5JzM2LjAiTiAxMznCsDQyJzAwLjAiRQ!5e0!3m2!1sen!2sjp!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg"
-              />
+
             </div>
           </div>
         </div>
