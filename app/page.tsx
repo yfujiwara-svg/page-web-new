@@ -202,7 +202,7 @@ export default function HomePage() {
                 <p className="text-xs font-light text-gray-700">
                   電話: 03-6820-6541
                   <br />
-                  メール: info@pagetokyo.com
+                  メール: info@pagetokyo.jp
                 </p>
               </div>
               <div>
