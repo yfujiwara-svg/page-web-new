@@ -142,11 +142,15 @@ export default function HomePage() {
             <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
             tel:03-6820-6541
             </p>
-            <Button size="xs" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
-              TableCheck
-            </Button>
-
-
+            <Button asChild size="xs" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
+                <Link
+                  href="https://www.tablecheck.com/shops/page-tokyo/reserve"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  TableCheck
+                </Link>
+              </Button>
           </div>
         </div>
       </section>
