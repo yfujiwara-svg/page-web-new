@@ -15,8 +15,8 @@ const zenOldMincho = Zen_Old_Mincho({
 })
 
 export const metadata: Metadata = {
-  title: "page - Innovative Fusion Restaurant",
-  description: "High-end minimalist fusion restaurant offering an exceptional dining experience",
+  title: "page - Japanese Innovative Restaurant in Tokyo Asakusa 日本のイノベーティブ・フュージョンレストラン 東京浅草",
+  description: "A new page of culinary imagination awaits you here. 奥浅草にあるイノベーティブレストランpageは、料理の新しい創造性を追求します。",
   generator: "v0.app",
 }
 

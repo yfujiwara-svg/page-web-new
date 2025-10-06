@@ -9,7 +9,6 @@ const navigation = [
   { name: "menu", href: "#menu" },
   { name: "reservation", href: "#reservation" },
   { name: "gallery", href: "#gallery" },
-  { name: "message", href: "#message" },
   { name: "access", href: "#access" },
 ]
 
