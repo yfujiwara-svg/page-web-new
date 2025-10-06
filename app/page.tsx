@@ -216,7 +216,7 @@ export default function HomePage() {
             </div>
             <div className="relative aspect-[4/3] w-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747707654!2d139.70!3d35.66!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDM5JzM2LjAiTiAxMznCsDQyJzAwLjAiRQ!5e0!3m2!1sen!2sjp!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1847005780255!2d139.7953277756141!3d35.72167582775147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fe076a3c789%3A0xab85207532c1f145!2spage!5e0!3m2!1sja!2sjp!4v1759739770631!5m2!1sja!2sjp"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
