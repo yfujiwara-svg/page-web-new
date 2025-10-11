@@ -3,6 +3,7 @@
 import Image from "next/image"
 import HeroCarousel from "@/components/hero-carousel"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function HomePage() {
   return (
@@ -140,7 +141,7 @@ export default function HomePage() {
             ご予約はTableCheck,お電話より承っております。
             </p>
             <p className="text-[11px] md:text-xs font-light leading-relaxed text-gray-700 max-w-2xl mx-auto text-pretty">
-            tel:03-6820-6541
+            tel: 03-6820-6541
             </p>
             <Button asChild size="xs" className="bg-black text-white hover:bg-gray-800 px-6 py-2 text-xs font-light">
                 <Link
